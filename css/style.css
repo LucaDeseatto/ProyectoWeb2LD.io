@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/*ESTILOS GENERALES DE LA ESTRUCTURA*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    background-color:rebeccapurple;
+    width: 100%;
+}
+
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+
+    font-size: medium;
+    padding: 20px;
+}
+
+body{
+    height: 15vh;
+    width: 100%;
+}
+
+#pie{
+    display: inline-block;
+    position: fixed;
+    width: 100%;
+    height: 15vh;
+    bottom: 0;
+    background-color:black;
+    text-align: center;
+    padding: 25px;
+    justify-content: center;
+    display:grid;
+
+}
+
+
+
+/*HTML INDEX*/
+
+#landing{
+    background-image: url("../img/63e6d3a3-a733-41ed-b136-e909d30fe219.jpg");
+    height: 6;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: auto;
+    height: 80%;
+    
+}
+/*HTML CONTACTO*/
+
+.titleContact{
+    text-align: center;
+    padding: 50px;
+}
+
+form{
+    width: 560px;
+    margin: auto;
+    align-content: center;
+    background: #24303c;
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+form p{
+    text-align: center;
+    margin-bottom: 20px;
+    height: 40px;
+    font-size: 18px;
+
+}
+form input{
+    display: block;
+    width: 500px;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #9F44D3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+form button{
+    display: block;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: black;
+    
+}
+
