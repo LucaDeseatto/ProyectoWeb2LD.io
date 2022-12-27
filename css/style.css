@@ -59,11 +59,55 @@ body{
     background-repeat: no-repeat;
 }
 
+#pie div i{
+    margin-left: 20px; 
+}
+
 .logo{
     width: auto;
-    height: 80%;
-    
+    height: 80%;  
 }
+
+/*Seccion Nosotros*/
+
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconos{
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+}
+
+.encabezado{
+    font-weight: 300;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mayusculas{
+    text-transform: uppercase;
+}
+/*HTML Sobre Nosotros*/
+
+.seccion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.fw-300{
+    font-weight: 300;
+}
+
+.centrar-txt{
+    text-align: center;
+}
+
+
+
+/*HTML PRODUCTOS*/
+
 /*HTML CONTACTO*/
 
 .titleContact{
@@ -108,6 +152,5 @@ form button{
     margin: auto;
     margin-bottom: 20px;
     color: black;
-    
 }
 
